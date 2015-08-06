@@ -11,7 +11,7 @@ Information on the WWW is transmitted using __HTTP__ and encrypted with __SSL/TS
 * no tampering
 
 ## Secure Socket Layer / TLS
-* has two parts
+Has two parts:
 * 1. Handshake protocol - __establish a shared secret key using public-key cryptography__ (2nd part of course)
 * 2. Record layer - __transmit data using shared secret key__ - ensure _confidentiality_ and _integrity_ (1st part of course)
 * data communication and file storage are _philosophically_ the same. Alice today is sending a message to Alice in the future... via an encrypted file she wants to access later.
