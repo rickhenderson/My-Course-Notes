@@ -30,3 +30,5 @@ Has two parts:
 
 __END OF OVERVIEW__
 
+#What is Cryptography?
+__Theorem:__ _Anything that can be done with a trusted authority can be done without one._
