@@ -32,3 +32,10 @@ __END OF OVERVIEW__
 
 #What is Cryptography?
 __Theorem:__ _Anything that can be done with a trusted authority can be done without one._
+
+###Zero Knowledge (Proof of Knowledge)
+Alice has a large number N which is the product of two large prime numbers p and q:
+```
+N = p x q
+```
+Imagine __p__ and __q__ are thousands of digits long. It is easy to calculate __N__ by multiplying __p x q__ but factoring __N__ to get _p_ and _q_ is quite difficult. In cryptography, Alice knows N, p, and q, but Bob only knows N. Alice can prove to Bob she knows p and q but Bob never knows what they are.
