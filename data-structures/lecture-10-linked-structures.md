@@ -44,12 +44,13 @@ return self._top is None
 ```
 
 - the linked stack `combine` method uses a **helper** method
-  -   no new nodes are created
+  - no new nodes are created
   - **never make copies of the data!**
   - temp just points to the old top
   - and a `rhs`
   - never refers to value
   - use to so we never loose track 
+
 `combine` is **O(n)** when implemented this way.
 
 # Linked Queue Implementation 
@@ -67,7 +68,7 @@ return self._top is None
 ### Insert
 * special  case: front and rear both point to same thing
 * rear next of a queue ALWAYS points to none
-* 
+
 ### Remove
   - from the front
   - similar to stack pop
