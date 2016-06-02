@@ -3,11 +3,12 @@
 
 ## A Basic Node
 
+<pre>
 +-------------+
 |cargo|       +---->
 |     |  next |
 +-----+-------+
-
+</pre>
 
 # Linked Stack Implementation 
 
@@ -29,8 +30,10 @@ self._top = _StackNode(value, _self.top)
 self._size += 1 #remove from implementation 
 ```
 
-The stack itself needs to keep track of the total size.  Nodes are stupid. 
-** felt board, wooden nodes, whiteboard magnets, string and velcro **
+> The stack itself needs to keep track of the total size.  Nodes are stupid. 
+
+**felt board, wooden nodes, whiteboard magnets, string and velcro**
+
 ### Pop()
 
 ### is_empty()
