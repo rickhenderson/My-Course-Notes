@@ -113,6 +113,9 @@ for i in range(1, n):
     
 print("{0:d}".format(n), file = number_file)
 ```
+* seek(), seek(0) `# Useful when leaving a file open but jumping back to the top`
+* tell()          `# Display where in the file you are as # of characters from begining.`
+* 
 
 
 ### 2D Lists - CP104 Week 10
