@@ -82,4 +82,24 @@
 
 ### Files - CP104 Week 9
 
+* Files are treated as objects
+* `file_variable = open(file_name, mode, encoding="utf-8")`
+  * utf-8 is a good default for standard ASCII and a few non-English characters
+* different modes for reading, writing, and appending
+  * also modes for r+, w+, a+
+* `first_file.close()`
+* try and only open a file once if possible, close when done
+* `first_file.readline()` reads in the line and the terminator
+* reading a file and stripping the EOL characters:
+
+```Python
+first_file = open("data.txt", "r", encoding="utf-8")
+line = first_file.readline().strip()
+
+while line != "":
+    # process data
+    line = first_file.readline().strip()
+```
+
+
 ### 2D Lists - CP104 Week 10
