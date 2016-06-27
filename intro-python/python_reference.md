@@ -100,6 +100,19 @@ while line != "":
     # process data
     line = first_file.readline().strip()
 ```
+* split(), split(","), split("and")
+* __write__ to a file using `print`
+* `print(formatted string, file = file_variable)`
+* write a comma seperated line except the last value
+```Python
+number_file = open("numbers.txt", "w", encoding="utf-8")
+n = 7
+
+for i in range(1, n):
+    print("{0:d}".format(i), file = number_file, end = ", ")
+    
+print("{0:d}".format(n), file = number_file)
+```
 
 
 ### 2D Lists - CP104 Week 10
